@@ -1,0 +1,119 @@
+body {
+    height: 2685;
+    padding: 0;
+    margin: 0;
+}
+
+h1 {
+    position: absolute;
+    width: 805px;
+    height: 175px;
+    left: 317px;
+    top: 349px;
+    font-family: Ubuntu Condensed;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 160px;
+    line-height: 184px;
+    text-align: center;
+    color: #000000;
+}
+
+/* nav bar */
+
+nav {
+    height: 30px;
+    color: #000000;
+    font-size: 20px;
+    text-align: right;
+    word-spacing: 30px;
+    padding: 5px;
+}
+
+#navback {
+    background-color: #EFBBBB;
+    margin-top: 0px;
+    width: auto;
+}
+
+a {
+    color: #000000;
+    text-decoration: none;
+}
+
+a:hover {
+    color: white;
+}
+
+#home1 {
+    background-color: #FBE2E2;
+    height: 1143px;
+    resize: none;
+}
+
+#home2 {
+   background-color: #f3cfcf;
+   height: 1143px;
+   resize: none;
+}
+
+#home3 {
+    background-color: #FBE2E2;
+    height: 1143px
+}
+
+
+#container {
+	text-align: center;
+}
+
+#text {
+	display: inline-block;
+    font-family: 'Roboto Mono', monospace;
+	vertical-align: middle;
+	color: black;
+	letter-spacing: 2px;
+    font-size: 140px;
+    margin-top: 200px;
+    font-family: 'Roboto Mono', monospace;
+}
+
+#cursor {
+	display: inline-block;
+	vertical-align: middle;
+	width: 3px;
+	height: 200px;
+	background-color:rgb(218, 116, 138);
+	animation: blink .75s step-end infinite;
+    margin-top: 200px;
+}
+
+@keyframes blink {
+	from, to { 
+		background-color: transparent 
+	}
+	50% { 
+		background-color: rgb(218, 116, 138); 
+	}
+}
+
+#subtitle {
+    text-align: center;
+    font-size: 10px;
+}
+
+#info {
+font-size: 40px;
+padding: 60px;
+}
+
+img {
+    height: 600px;
+}
+
+button {
+    height: 400px;
+    width: 500px;
+    box-align: center;
+    color: #FBE2E2;
+}
